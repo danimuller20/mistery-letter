@@ -112,3 +112,17 @@ span {
 .skewright {
   transform: skewX(-10deg);
 }
+
+@media screen and (max-width: 600px) {
+  .carta-pronta {
+    max-width: 100%;
+  }  
+
+  .carta-texto {
+    width: 60%;
+  }
+
+  .main-content {
+    padding: 15px;
+  }
+}
